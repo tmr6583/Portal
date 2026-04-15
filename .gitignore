@@ -1,0 +1,4 @@
+# Mantem no repositório apenas arquivos da raiz de /opt/betina.
+# Ignora qualquer pasta interna (incluindo pastas ocultas).
+*/
+.*/

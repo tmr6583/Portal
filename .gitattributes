@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normaliza finais de linha em arquivos de texto
+* text=auto eol=lf
+
+# Arquivos de imagem devem ser tratados como binário
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+
+# Tipos de texto comuns no portal
+*.html text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.code-workspace text eol=lf
