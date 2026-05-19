@@ -24,16 +24,28 @@ Portal estático que centraliza o acesso aos sistemas operacionais da empresa.
    - Função: acesso ao login do serviço de performance para consolidação e envio periódico de dados de venda.
    - Ícone: `fa-chart-line`
 
+3. **Gerador de Encartes**
+   - URL: `https://betinalimpeza.ddns.net/gerador/`
+   - Função: criação de encartes promocionais com geração de imagem final.
+   - Ícone: `fa-images`
+
+4. **Premiador**
+   - URL: `https://betinalimpeza.ddns.net/premiador/login`
+   - Função: cálculo de comissões, premiações e vales para vendedores.
+   - Ícone: `fa-trophy`
+
 ## Uso
 
 - Abra `index.html` em um navegador moderno.
 - Clique no cartão do serviço desejado para redirecionamento.
+- O cartão `Premiador` abre diretamente a tela de login do sistema de premiação.
 
 ## Padrões de manutenção
 
 - Editar preferencialmente apenas `index.html` para ajustes de cards.
 - Manter URLs em HTTPS e evitar links `localhost` no portal publicado.
 - Alterar somente o cartão necessário para não impactar outros serviços.
+- Em serviços com autenticação obrigatória, apontar o link para a rota de login.
 
 ## Como adicionar novo cartão
 

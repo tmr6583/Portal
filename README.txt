@@ -26,6 +26,16 @@ O portal atualmente integra os seguintes sistemas:
    - Descrição: Acesso direto à página de login do serviço de Performance para consolidação e envio periódico de dados mensais de venda.
    - Ícone: fa-chart-line
 
+3. Gerador de Encartes
+   - URL: https://betinalimpeza.ddns.net/gerador/
+   - Descrição: Criação de encartes promocionais com geração de imagem final.
+   - Ícone: fa-images
+
+4. Premiador
+   - URL: https://betinalimpeza.ddns.net/premiador/login
+   - Descrição: Sistema de cálculo de comissões, premiações e vales de vendedores.
+   - Ícone: fa-trophy
+
 Para Usuários
 -------------
 Você pode acessar o portal por uma destas formas:
@@ -35,6 +45,8 @@ Você pode acessar o portal por uma destas formas:
 Navegação:
 - Clique no cartão desejado para redirecionamento automático.
 - O cartão "Envio de Performance de Vendas" abre diretamente a tela de login do serviço Performance.
+- O cartão "Gerador de Encartes" abre o sistema de criação de encartes.
+- O cartão "Premiador" abre diretamente a tela de login do sistema de premiação.
 
 Para Desenvolvedores
 --------------------
@@ -63,7 +75,7 @@ Como adicionar um novo serviço:
 Nota sobre Estilos de Cartão:
 - Use `class="card"` para o estilo padrão (azul).
 - Use `class="card accent"` para o estilo de destaque (amarelo), como 
-  usado no módulo de Cobranças.
+  usado nos módulos de Cobranças e Premiador.
 
 Checklist de revisão antes de publicar alteração no portal:
 1. Confirmar se cada `href` aponta para o ambiente correto (produção/homologação).
