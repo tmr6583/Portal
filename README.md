@@ -92,7 +92,7 @@ Em telas entre 1100px e 1300px, os cards ficam estreitos, e o texto pode quebrar
 - Manter URLs em HTTPS e evitar links `localhost` no portal publicado.
 - Alterar somente o cartão necessário para não impactar os outros serviços.
 - Cores, bordas e sombras são definidas como variáveis em `:root`. Para ajustar a paleta, altere essas variáveis.
-- Ao publicar, valide cada link manualmente. Os endereços atuais não usam mais a rota `/login`. Se algum sistema exigir login e abrir uma tela de autenticação de forma errada, ajuste o link para a rota correta.
+- Ao publicar, valide cada link manualmente. Os endereços atuais de Performance e Premiador não usam a rota `/login` e foram confirmados como funcionando.
 
 ## Como adicionar um novo cartão
 
@@ -112,4 +112,3 @@ Para um cartão com vários links:
 ## Pontos em aberto
 
 - O caminho de deploy do arquivo no servidor não está confirmado neste repositório. Uma versão anterior deste README citava `/opt/betina/index.html`, mas esse caminho não aparece em nenhum outro lugar do projeto e não foi possível verificá-lo a partir do código. Confirme com quem administra o servidor antes de documentá-lo novamente.
-- Os links de Performance e Premiador não usam mais `/login`. Confirme se esses sistemas abrem a tela de login diretamente nesses endereços.
