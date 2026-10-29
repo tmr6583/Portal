@@ -34,6 +34,15 @@ Portal estático que centraliza o acesso aos sistemas operacionais da empresa.
    - Função: cálculo de comissões, premiações e vales para vendedores.
    - Ícone: `fa-trophy`
 
+5. **Catálogo**
+   - Card sem link único, com um link por catálogo:
+     - `https://betinalimpeza.com.br/catalogo/` (Geral)
+     - `https://betinalimpeza.com.br/catalogo/adriana`
+     - `https://betinalimpeza.com.br/catalogo/simone`
+     - `https://betinalimpeza.com.br/catalogo/silvana`
+     - `https://betinalimpeza.com.br/catalogo/mariaeduarda`
+   - Ícone: `fa-book-open`
+
 ## Uso
 
 - Abra `index.html` em um navegador moderno.

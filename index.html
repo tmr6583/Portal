@@ -238,6 +238,30 @@
     }
     .card:hover .card-arrow { opacity: 1; gap: 8px; }
 
+    /* sub-links inside a card (e.g. Catálogo) */
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 2px;
+    }
+    .card-link {
+      font-size: .76rem;
+      font-weight: 600;
+      color: var(--blue-mid);
+      background: var(--blue-pale);
+      border: 1.5px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 12px;
+      text-decoration: none;
+      transition: background var(--transition), color var(--transition), border-color var(--transition);
+    }
+    .card-link:hover {
+      background: var(--blue-mid);
+      border-color: var(--blue-mid);
+      color: var(--white);
+    }
+
     /* ── Footer ───────────────────────────────────────────────── */
     footer {
       background: var(--blue-dark);
@@ -329,6 +353,22 @@
         </div>
         <div class="card-arrow">Acessar <i class="fa-solid fa-arrow-right"></i></div>
       </a>
+
+      <!-- Card 5 — Catálogo (múltiplos links; não pode ser <a>) -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+        <div class="card-body">
+          <div class="card-name">Catálogo</div>
+          <div class="card-desc">Acesso ao catálogo geral e aos catálogos individuais.</div>
+        </div>
+        <div class="card-links">
+          <a href="https://betinalimpeza.com.br/catalogo/" class="card-link">Geral</a>
+          <a href="https://betinalimpeza.com.br/catalogo/adriana" class="card-link">Adriana</a>
+          <a href="https://betinalimpeza.com.br/catalogo/simone" class="card-link">Simone</a>
+          <a href="https://betinalimpeza.com.br/catalogo/silvana" class="card-link">Silvana</a>
+          <a href="https://betinalimpeza.com.br/catalogo/mariaeduarda" class="card-link">Maria Eduarda</a>
+        </div>
+      </div>
 
     </div>
   </main>
