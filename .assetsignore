@@ -1,0 +1,7 @@
+.git
+.gitignore
+.gitattributes
+.wrangler
+wrangler.jsonc
+*.code-workspace
+README.md
