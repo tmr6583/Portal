@@ -122,7 +122,7 @@
     main {
       flex: 1;
       width: 100%;
-      max-width: 1200px;
+      max-width: 1600px;
       margin: 0 auto;
       padding: 56px 24px 64px;
     }
@@ -148,7 +148,7 @@
     /* ── Card Grid ────────────────────────────────────────────── */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 22px;
     }
 
@@ -275,6 +275,9 @@
     footer strong { color: rgba(255,255,255,.85); font-weight: 600; }
 
     /* ── Responsive ───────────────────────────────────────────── */
+    @media (max-width: 1100px) {
+      .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
     @media (max-width: 600px) {
       header { padding: 36px 16px 44px; }
       main { padding: 36px 16px 48px; }
