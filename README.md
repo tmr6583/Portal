@@ -15,22 +15,22 @@ Portal estático que centraliza o acesso aos sistemas operacionais da empresa.
 ## Serviços publicados no portal
 
 1. **Cobranças**
-   - URL: `https://betinalimpeza.ddns.net/atrasados/`
+   - URL: `https://betinalimpeza.com.br/atrasados`
    - Função: acompanhamento de pedidos em atraso.
    - Ícone: `fa-money-bill-wave`
 
 2. **Envio de Performance de Vendas**
-   - URL: `https://betinalimpeza.ddns.net/performance/login`
+   - URL: `https://betinalimpeza.com.br/performance`
    - Função: acesso ao login do serviço de performance para consolidação e envio periódico de dados de venda.
    - Ícone: `fa-chart-line`
 
 3. **Gerador de Encartes**
-   - URL: `https://betinalimpeza.ddns.net/gerador/`
+   - URL: `https://betinalimpeza.com.br/gerador/`
    - Função: criação de encartes promocionais com geração de imagem final.
    - Ícone: `fa-images`
 
 4. **Premiador**
-   - URL: `https://betinalimpeza.ddns.net/premiador/login`
+   - URL: `https://betinalimpeza.com.br/premiador`
    - Função: cálculo de comissões, premiações e vales para vendedores.
    - Ícone: `fa-trophy`
 
