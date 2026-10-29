@@ -2,6 +2,18 @@
 
 Portal estático que centraliza o acesso aos sistemas internos da Betina Soluções em Limpeza.
 
+## Publicação
+
+| Item | Valor |
+|---|---|
+| Endereço publicado | https://tmr6583.github.io/Portal/ |
+| Hospedagem | GitHub Pages |
+| Branch publicada | `5.0` (pasta raiz) |
+| Versão atual | `v5.0.0` ([release](https://github.com/tmr6583/Portal/releases/tag/v5.0.0)) |
+| Publicação | Automática a cada push na branch `5.0` |
+
+O domínio `https://betinalimpeza.com.br` é outro site, hospedado em VPS, e não é alterado por este repositório. Os links dos cards apontam para ele.
+
 ## Objetivo
 
 - Oferecer um ponto único de entrada para os serviços internos.
@@ -15,6 +27,7 @@ Portal estático que centraliza o acesso aos sistemas internos da Betina Soluç�
 | `index.html` | Página inteira: HTML, CSS inline e cards dos serviços. Não há JavaScript. |
 | `Logo_Azul.webp` | Logo do cabeçalho e favicon da página. |
 | `Logo_Azul.jpg` | Versão JPG do logo, mantida como cópia de referência. |
+| `.assetsignore` | Lista de arquivos que não devem ser publicados (Git, Wrangler, editor e este README). |
 | `README.md` | Esta documentação. |
 | `.gitattributes` | Configuração de final de linha do Git. |
 
@@ -82,7 +95,7 @@ Em telas entre 1100px e 1300px, os cards ficam estreitos, e o texto pode quebrar
 
 ## Uso
 
-- Abra `index.html` em um navegador moderno.
+- Acesse https://tmr6583.github.io/Portal/ em um navegador moderno, ou abra `index.html` localmente.
 - Clique no cartão do serviço desejado para ser redirecionado.
 - No Catálogo, clique no botão do catálogo desejado (Geral ou de cada vendedora).
 
@@ -93,6 +106,8 @@ Em telas entre 1100px e 1300px, os cards ficam estreitos, e o texto pode quebrar
 - Alterar somente o cartão necessário para não impactar os outros serviços.
 - Cores, bordas e sombras são definidas como variáveis em `:root`. Para ajustar a paleta, altere essas variáveis.
 - Ao publicar, valide cada link manualmente. Os endereços atuais de Performance e Premiador não usam a rota `/login` e foram confirmados como funcionando.
+- Para publicar uma alteração, faça commit e push na branch `5.0`. O GitHub Pages atualiza o site sozinho. Para uma nova versão, crie uma tag (por exemplo `v5.0.1`) e um release.
+- O repositório é público. Não versione senhas, tokens, chaves de API nem IPs internos.
 
 ## Como adicionar um novo cartão
 
@@ -109,6 +124,10 @@ Para um cartão com vários links:
 1. Use `<div class="card">`, e não `<a>`.
 2. Coloque os links dentro de `<div class="card-links">`, usando `<a class="card-link">` para cada um.
 
+## Histórico de versões
+
+- `v5.0.0`: Catálogo, layout de 5 colunas, logo com link, links atualizados para `betinalimpeza.com.br` e publicação no GitHub Pages.
+
 ## Pontos em aberto
 
-- O caminho de deploy do arquivo no servidor não está confirmado neste repositório. Uma versão anterior deste README citava `/opt/betina/index.html`, mas esse caminho não aparece em nenhum outro lugar do projeto e não foi possível verificá-lo a partir do código. Confirme com quem administra o servidor antes de documentá-lo novamente.
+- Nenhum pendente de publicação. A versão anterior deste README citava `/opt/betina/index.html` como caminho de deploy. Esse caminho não se aplica à publicação atual (GitHub Pages) e não foi verificado no servidor de `betinalimpeza.com.br`.
